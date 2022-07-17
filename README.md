@@ -5,8 +5,8 @@ This sample of code answers the age-old question, "How to display a numpy array 
 This specific approach does so in a way which is suitable for streams of numpy arrays (i.e. a video).
 
 ## Requirements
-`ipywidgets`: `pip install ipywidgets`<br>
-`cv2`: `pip install opencv-python`
+- `ipywidgets`
+- `opencv-python`
 
 ## Usage
 ```python
