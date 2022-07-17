@@ -16,3 +16,7 @@ while ret:
     ret, frame = cap.read()
 ```
 > Note: You'll likely need to utilize `cv2.resize(frame, (h,w))` to scale down the image as the `show_frame` function is quite slow
+
+
+## Contributing
+The implementation is quite simple. I am not currently planning to expand this, but if you'd like to add something, feel free to fork and PR
