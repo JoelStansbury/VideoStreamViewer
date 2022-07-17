@@ -26,6 +26,6 @@ while ret:
 > Note 2: the `[:,:,::-1]` will swap convert BGR to RGB. This is only because `cv2` loads stuff as BGR by default
 
 ## Improvements
-If you need it to go faster, then consider altering the show_frame function to ingest the byte data directly. This would allow you to frontload the processing required to save and re-open the BytesIO file.<br>
+If you need a higher framerate, then consider altering the show_frame function to ingest the byte data directly. This would allow you to frontload the processing required to save and re-open the BytesIO file.<br>
 You can take this one step further by initializing each frame as an ipywidgets.Image object, then setting `self.children = [new_ImageObj]`, but you'll run into some flickering so I don't rate this option too highly.<br>
 You could also just save your array stream as an `.mp4` and then look for a video player widget. Will likely be the fastest option, but I don't know of any video players, I'm just guessing that they exist
