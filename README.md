@@ -1,6 +1,8 @@
 # VideoStreamViewer
 Widget for ipython environments (e.g. jupyter lab/notebook) for displaying a stream of numpy arrays as a video stream
 
+This sample of code answers the age-old question, "How to display a numpy array as a image?".
+This specific approach does so in a way which is suitable for streams of numpy arrays (i.e. a video).
 
 ## Usage
 ```python
